@@ -1,0 +1,91 @@
+.signup-form {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  font-family: 'Oswald', 'Open Sans'
+}
+.form-box {
+  border: 1px solid rgb(144, 3, 144);
+  border-radius: 10PX;
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+}
+
+input[type="text"] {
+  /* margin-left: 20%; */
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(144, 3, 144);
+}
+
+input[type="password"] {
+  margin-top: 25px;
+  /* margin-left: 16.5%; */
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0px;
+  border-bottom: 1px solid rgb(144, 3, 144);
+}
+
+input[type="email"] {
+  /* margin-left: 20%; */
+  margin-top: 25px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0px;
+  border-bottom: 1px solid rgb(144, 3, 144);
+}
+input[type="number"] {
+  margin-top: 25px;
+  /* margin-left: 16.5%; */
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0px;
+  border-bottom: 1px solid rgb(144, 3, 144);
+}
+
+input[type="radio"] {
+  margin-top: 25px;
+  margin-left: 10px;
+  /* width: 15px; */
+  height: 15px;
+}
+
+.gender {
+  margin-left: 11%;
+}
+
+.submitbtn {
+  font-size: 16px;
+  background-color: rgb(51, 192, 51);
+  border-radius: 4px;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+  border: none;
+  margin-top: 25px;
+}
+
+.submitbtn:hover {
+  background-color: rgb(30, 176, 30);
+}
