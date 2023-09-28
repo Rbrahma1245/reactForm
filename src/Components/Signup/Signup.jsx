@@ -61,7 +61,7 @@ function Signup() {
         </div>
 
         <input type='password' name='pass' placeholder='Enter your password' onChange={commonHandler} />  
-        <button className='submitbtn' onClick={submitHandler}>SIGN UP</button>
+        <button className='signup-btn' onClick={submitHandler}>SIGN UP</button>
 
         <div style={{textAlign:'left', marginTop:10}}>Already have an account ?  <NavLink to="/login">Login</NavLink> </div>
       </div>

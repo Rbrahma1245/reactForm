@@ -73,9 +73,9 @@ input[type="radio"] {
   margin-left: 11%;
 }
 
-.submitbtn {
+.signup-btn {
   font-size: 16px;
-  background-color: rgb(51, 192, 51);
+  background-color: rgb(89, 55, 202);
   border-radius: 4px;
   color: white;
   padding: 14px 30px;
@@ -86,6 +86,6 @@ input[type="radio"] {
   margin-top: 25px;
 }
 
-.submitbtn:hover {
-  background-color: rgb(30, 176, 30);
+.signup-btn:hover {
+  background-color: rgb(74, 36, 199);
 }

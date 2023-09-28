@@ -9,6 +9,8 @@ function Login() {
     email: '',
     pass: '',
   })
+
+
   function commonHandler(e) {
     let { name, value } = e.target
   
@@ -16,7 +18,6 @@ function Login() {
       return { ...prev,  [name]: value }
     })
   }
-
 
 
   function submitHandler() {
